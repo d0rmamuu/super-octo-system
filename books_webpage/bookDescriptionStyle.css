@@ -24,7 +24,8 @@ hr
 }
 img
 {
-	position:center;
+	position:relative;
+        left:1px
 	width:250px;
 	height:400px;
 	vertical-align:top;
@@ -35,7 +36,7 @@ div.Description
 {
 	
 	height:800px;
-	width:57%;
+	width:67%;
 	position:relative;
 	text-align:center;
 	
