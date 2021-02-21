@@ -25,7 +25,6 @@ hr
 img
 {
 	position:center;
-	left:0px;
 	width:300px;
 	height:400px;
 	vertical-align:top;
@@ -38,7 +37,6 @@ div.Description
 	height:800px;
 	width:67%;
 	position:relative;
-	left:400px;
 	text-align:center;
 	
 	
