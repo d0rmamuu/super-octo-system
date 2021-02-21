@@ -1,0 +1,72 @@
+body
+{
+	background-color:#d1c2c2;
+        
+}
+h1#h
+{
+	text-align:center;
+	padding:29px;
+	background-color:#d1c2c2;
+	font-family:Lucida Handwriting;
+	font-weight:bold;
+	color:red;
+ 	font-family:cursive;
+}
+}
+hr
+{
+	border-width:1px;
+	width:100%;
+	height:1px;
+	color:navy;
+	background-color:navy;
+}
+img
+{
+	position:center;
+	left:400px;
+	width:300px;
+	height:400px;
+	vertical-align:top;
+	align:left;
+}
+
+div.Description
+{
+	
+	height:800px;
+	width:67%;
+	position:relative;
+	left:400px;
+	text-align:center;
+	
+	
+}
+p
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size:24px;
+	
+}
+span
+{
+	
+	background-color:yellow;
+}
+a:hover
+{
+	color:Navy;
+	font-size:20px;
+	font-weight:bold;
+}
+img:hover{
+	height:410px;
+	width:310px;
+}
+a
+{
+	text-decoration:none;
+	font-size:18px;
+	font-family:cursive;
+}
