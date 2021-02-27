@@ -1,0 +1,66 @@
+#navbar {
+  overflow:hidden;
+  left: 1%;
+  background-color: #b4bfd1;
+  margin: auto;
+  border: 1px solid red;
+  font-family: fantasy;
+  font-size: 150%;
+  }
+a:link {
+  text-decoration: none;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  font-family: fantasy;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #b4bfd1;
+  color: black;
+}
+
+#table{
+  border: 1px solid red;
+  position: fixed;
+  left: 1%;
+  top: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+  font-weight: bold;
+  
+  background-color:#b4bfd1;
+}
+#sugstn{
+  position: fixed;
+  border: 1px solid red;
+  left: 20%;
+  top: 10%;
+  width: 79.5%;
+  height: 80%;
+  background-color:#b4bfd1;
+  overflow: auto;
+  
+}
+.footer {
+  position: fixed;
+  left: .5%;
+  bottom: .5%;
+  height: 4.9%;
+  width: 99%;
+  background-color:#b4bfd1;
+  color: #81219e;
+  text-align: right;
+  margin: auto;
+  border: 1px solid red;
+  font-family: fantasy;
+}
