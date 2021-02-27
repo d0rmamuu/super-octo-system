@@ -44,12 +44,12 @@ var m=document.getElementById("male").value;
 var f=document.getElementById("female").value;
 var su=document.getElementById("sugg").value;
 if(document.getElementById("male").checked && fname!=null && lname!=null && fname!="" && lname!="" && su!="" && su!=null){
-suggestion=suggestion+" * M r . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
+suggestion=suggestion+" * Mr . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
 document.getElementById("1").innerHTML=suggestion;
 }
 else if(document.getElementById("female").checked && fname!=null && lname!=null && fname!="" && lname!="" && su!="" && su!=null){
 
-suggestion=suggestion+" * M rs . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
+suggestion=suggestion+" * Mrs . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
 document.getElementById("1").innerHTML=suggestion;
 
 }
