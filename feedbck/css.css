@@ -1,5 +1,4 @@
 #navbar {
-  postion: fixed;
   overflow:hidden;
   left: .5%;
   top: .5%;
@@ -23,7 +22,7 @@ a:link {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #bac9e0;
   color: black;
 }
 #navbar a.active {
@@ -33,21 +32,23 @@ a:link {
 
 #table{
   border: 1px solid red;
-  position: absolute;
+  position: fixed;
   top:10%;
-  left: .5%
+  left: .5%;
   margin: auto;
   background-color:#b4bfd1;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
   
 }
-
+#s1{
+  
+}
 #sugstn{
   position: fixed;
   border: 1px solid red;
   top:10%;
-  left:20%;
+  right:.5%;
   width: 79.5%;
   height:80%;
   background-color:#b4bfd1;
