@@ -1,5 +1,5 @@
 #navbar {
- postion: fixed;
+  postion: fixed;
   overflow:hidden;
   left: .5%;
   top: .5%;
@@ -42,12 +42,11 @@ a:link {
   font-weight: bold;
   
 }
-#s1{
-  
-}
+
 #sugstn{
-  position: absolute;
+  position: fixed;
   border: 1px solid red;
+  top:10%;
   left:20%;
   width: 79.5%;
   height:80%;
@@ -70,20 +69,3 @@ a:link {
   font-family: fantasy;
 }
 
-/* Set the font-size of .form-control */
-.form-control{
-  font-size: 16px;
-}
-
-/* On screens that are 992px or less, set font-size to 14px */
-@media screen and (max-width: 992px) {
-  .form-control{
-    font-size: 14px;
-  }
-}
-
-/* On screens that are 600px or less, set font-size to 12px */
-@media screen and (max-width: 600px) {
-  .form-control{
-    font-size: 12px;
-  }
