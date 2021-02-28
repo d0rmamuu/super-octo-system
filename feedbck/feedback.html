@@ -1,13 +1,13 @@
 <html>
 <header>
 <link rel="stylesheet" href="css.css">
-<nav id="navbar"><b><a class ="active" href="javascript:void(0)">F E E D B A C K </a></b><a href="https://d0rmamuu.github.io/super-octo-system/aboutme_webpage/aboutme.html"><i>About Me</i></a>
-<a href="https://d0rmamuu.github.io/super-octo-system/books_webpage/index.html"><i>Books</i></a></nav>
+<nav id="navbar"><b><a class ="active" href="javascript:void(0)">F E E D B A C K </a></b><a href="aboutme.html"><i>About Me</i></a>
+<a href="books.html"><i>Books</i></a></nav>
 </header>
 <body>
-<section style="width:100%;">
-<section>
-<form  name="feedbackform" target="_self">
+
+<section id="s1">
+<form  name="feedbackform" target="_self" class="form-control">
 <table id="table">
 <tr><td>First Name: </td><td><input type="text" id="fname" name="fname" maxlength="40" required> </td></tr>
 <tr><td>Second Name: </td><td><input type="text" id="sname" name="sname" maxlength="40"> </td></tr>
@@ -27,7 +27,7 @@
 <section id="sugstn">
 <b id="1"></b>
 </section>
-</section>
+
 <footer class="footer">
 <p>©powered by html 5™,javascript™,php™&css™ </p>
 </footer>
@@ -44,12 +44,12 @@ var m=document.getElementById("male").value;
 var f=document.getElementById("female").value;
 var su=document.getElementById("sugg").value;
 if(document.getElementById("male").checked && fname!=null && lname!=null && fname!="" && lname!="" && su!="" && su!=null){
-suggestion=suggestion+" * Mr . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
+suggestion=suggestion+"* Mr."+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
 document.getElementById("1").innerHTML=suggestion;
 }
 else if(document.getElementById("female").checked && fname!=null && lname!=null && fname!="" && lname!="" && su!="" && su!=null){
 
-suggestion=suggestion+" * Mrs . "+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
+suggestion=suggestion+"* Mrs."+document.getElementById("fname").value+" "+document.getElementById("sname").value+" "+document.getElementById("lname").value+" says "+s+".  <br><br>";
 document.getElementById("1").innerHTML=suggestion;
 
 }

@@ -1,6 +1,8 @@
 #navbar {
+ postion: fixed;
   overflow:hidden;
-  left: 1%;
+  left: .5%;
+  top: .5%;
   background-color: #b4bfd1;
   margin: auto;
   border: 1px solid red;
@@ -31,26 +33,27 @@ a:link {
 
 #table{
   border: 1px solid red;
-  position: fixed;
-  left: 1%;
-  top: 9%;
-  width: 15%;
-  min-height: 150px;
+  position: absolute;
+  top:10%;
+  left: .5%
+  margin: auto;
+  background-color:#b4bfd1;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-style: italic;
   font-weight: bold;
   
-  background-color:#b4bfd1;
 }
-
+#s1{
+  
+}
 #sugstn{
   position: absolute;
   border: 1px solid red;
-  left: 20%;
+  left:20%;
   width: 79.5%;
   height:80%;
   background-color:#b4bfd1;
   overflow: auto;
+  margin: auto;
   
 }
 .footer {
@@ -66,3 +69,21 @@ a:link {
   border: 1px solid red;
   font-family: fantasy;
 }
+
+/* Set the font-size of .form-control */
+.form-control{
+  font-size: 16px;
+}
+
+/* On screens that are 992px or less, set font-size to 14px */
+@media screen and (max-width: 992px) {
+  .form-control{
+    font-size: 14px;
+  }
+}
+
+/* On screens that are 600px or less, set font-size to 12px */
+@media screen and (max-width: 600px) {
+  .form-control{
+    font-size: 12px;
+  }
