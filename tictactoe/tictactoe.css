@@ -1,0 +1,62 @@
+<style>
+    h1 {
+        color:red;
+        font-size:45px;
+    }
+  
+    .block{
+        width:80px;
+        height:52px;
+        margin:auto;
+        border:50%;
+        font-size:30px;
+        text-align:center;
+	cursor:pointer;
+	border-radius:50%;
+    }
+  
+    #button{
+        box-sizing: border-box;
+        width:95px;
+        height:40px;
+        border:1px solid dodgerblue;
+        margin:auto;
+        border-radius:4px;
+        font-family:Verdana,Geneva,Tahoma,sans-serif;
+        background-color:dodgerblue;
+        color:white;
+        font-size:20px;
+        cursor:pointer;
+    }
+  
+    /* Player turn space */
+    #chance{
+        font-family:Verdana,Geneva,Tahoma,sans-serif;
+	color:red;
+        font-size:20px;
+    }
+    #main{
+        text-align:center;
+    }
+  .score{
+        font-family:Verdana,Geneva,Tahoma,sans-serif;   
+   }
+    #sbutton{
+	box-sizing: border-box;
+        width:45px;
+        height:20px;
+        border:1px solid dodgerblue;
+        margin:auto;
+        border-radius:4px;
+        font-family:Verdana,Geneva,Tahoma,sans-serif;
+        background-color:dodgerblue;
+        color:white;
+        font-size:13px;
+        cursor:pointer;
+}
+    #rules{
+        font-family:sans-serif;   
+        color:dodgerblue;
+        font-size:15px;
+    }
+</style>

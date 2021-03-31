@@ -1,0 +1,41 @@
+<html>
+  
+<head>
+    <link rel="stylesheet" type="text/css" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
+</head>
+  
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        
+	<p id="chance">Chance 'X'</p>
+  	<p class="score">X=<span id="x">0</span><br>
+	O=<span id="o">0</span><br></p>
+	<button id="sbutton" onclick="resetlb(); ">Clear</button>
+        <br><br>
+        
+        <input type="text" id="b1" class="block" onclick="b1(); validate();" readonly>
+	
+	<input type="text" id="b2" class="block" onclick="b2(); validate();" readonly>
+	<input type="text" id="b3" class="block" onclick="b3(); validate();" readonly>
+        <br><br>
+  
+        <input type="text" id="b4" class="block" onclick="b4(); validate();" readonly>
+        <input type="text" id="b5" class="block" onclick="b5(); validate();" readonly>
+	<input type="text" id="b6" class="block" onclick="b6(); validate();" readonly>
+        <br><br>
+  
+        <input type="text" id="b7" class="block" onclick="b7(); validate();" readonly>
+  	<input type="text" id="b8" class="block" onclick="b8(); validate();" readonly>
+	<input type="text" id="b9" class="block" onclick="b9(); validate();" readonly>
+	<br><br><br>
+
+        <button id="button" onclick="clck(); reset(); ">Reset</button>
+	<br><br>
+	<p id="rules">Click on box to Play.<br>
+		      Each Player gets his turn after one other.</p>
+    </div>
+</body>
+  
+</html>
